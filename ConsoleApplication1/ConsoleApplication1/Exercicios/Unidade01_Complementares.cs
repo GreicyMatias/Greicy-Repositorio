@@ -45,7 +45,7 @@ namespace ConsoleApplication1.Exercicios
             }
             Console.ReadKey();
         }
-        static void exercicio3(string[] args)
+        static void exercicio3()
         {
             int numeroAnterior = 0;
             int numeroAtual = 1;
@@ -65,12 +65,30 @@ namespace ConsoleApplication1.Exercicios
         {
             int opcao = 0;
             do{
+                Console.Clear();
                 Console.WriteLine("------------- MENU --------------");
-                Console.WriteLine("1 - Exercicio 1;");
-                Console.WriteLine("2 - Exercicio 2;");
-                Console.WriteLine("3 - Exercicio 3;");
-                Console.WriteLine("0 - Sair;");
-
+                Console.WriteLine("        1 - Exercicio 1;");
+                Console.WriteLine("        2 - Exercicio 2;");
+                Console.WriteLine("        3 - Exercicio 3;");
+                Console.WriteLine("        0 - Sair.");
+                opcao = int.Parse(Console.ReadLine());
+                switch(opcao){
+                    case 1:
+                        exercicio1();
+                        break;
+                    case 2:
+                        exercicio2();
+                        break;
+                    case 3:
+                        exercicio3();
+                        break;                    
+                    case 0:
+                        break;
+                    default:
+                        Console.WriteLine("Opção invalida. Digite Novamente!");
+                        Console.ReadKey();
+                        break;
+                }
             }while(opcao != 0);
         }
     }
