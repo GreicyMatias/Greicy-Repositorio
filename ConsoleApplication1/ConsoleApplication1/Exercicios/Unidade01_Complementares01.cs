@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1.Exercicios
 {
-    class Unidade01_Complementares
+    class Unidade01_Complementares01
     {
         static void exercicio1()
         {
@@ -61,7 +61,7 @@ namespace ConsoleApplication1.Exercicios
             }
             Console.ReadKey();
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int opcao = 0;
             do{               
