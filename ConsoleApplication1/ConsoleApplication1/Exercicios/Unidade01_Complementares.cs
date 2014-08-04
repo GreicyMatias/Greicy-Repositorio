@@ -64,7 +64,7 @@ namespace ConsoleApplication1.Exercicios
         static void Main(string[] args)
         {
             int opcao = 0;
-            do{
+            do{               
                 Console.Clear();
                 Console.WriteLine("------------- MENU --------------");
                 Console.WriteLine("        1 - Exercicio 1;");
