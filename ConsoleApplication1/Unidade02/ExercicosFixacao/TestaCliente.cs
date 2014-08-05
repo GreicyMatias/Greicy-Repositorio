@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Unidade02.ExercicosFixacao_1._7
+namespace Unidade02.ExercicosFixacao
 {
-    class TestaCliente
+    public class TestaCliente
     {
-        public static void Main()
+        public static void Main1()
         {
+            //exercicio 3
             Cliente cliente01 = new Cliente();
             cliente01.nome = "Greicy Matias";
             cliente01.codigo = 01;

@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Unidade02
 {
-    class Cliente
+    public class Cliente
     {
+        //exercicio 2
         public string nome;
         public int codigo;
     }

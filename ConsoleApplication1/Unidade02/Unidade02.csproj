@@ -41,13 +41,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExercicosFixacao_1.7\Cliente.cs" />
-    <Compile Include="ExercicosFixacao_1.7\TestaCliente.cs" />
+    <Compile Include="ExerciciosComplementares\Aluno.cs" />
+    <Compile Include="ExerciciosComplementares\Funcionario.cs" />
+    <Compile Include="ExerciciosComplementares\TestaAluno.cs" />
+    <Compile Include="ExerciciosComplementares\TestaFuncionario.cs" />
+    <Compile Include="ExerciciosComplementares\TestaTurma.cs" />
+    <Compile Include="ExerciciosComplementares\TestaTurmaEAluno.cs" />
+    <Compile Include="ExerciciosComplementares\Turma.cs" />
+    <Compile Include="ExercicosFixacao\ContaEAgencia.cs" />
+    <Compile Include="ExercicosFixacao\TestaContaEAgencia.cs" />
+    <Compile Include="ExercicosFixacao\Agencia.cs" />
+    <Compile Include="ExercicosFixacao\CartaoDeCredito.cs" />
+    <Compile Include="ExercicosFixacao\Cliente.cs" />
+    <Compile Include="ExercicosFixacao\Conta.cs" />
+    <Compile Include="ExercicosFixacao\TestaAgencia.cs" />
+    <Compile Include="ExercicosFixacao\TestaCartaoDeCredito.cs" />
+    <Compile Include="ExercicosFixacao\TestaCliente.cs" />
+    <Compile Include="ExercicosFixacao\TestaConta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
