@@ -44,7 +44,6 @@
     <Compile Include="Exercicios_EstruturaDeDados\Unidade01_Complementares01.cs" />
     <Compile Include="Exercicios_EstruturaDeDados\Unidade01_Complementares02.cs" />
     <Compile Include="Exercicios_EstruturaDeDados\Unidade01_Logica.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
