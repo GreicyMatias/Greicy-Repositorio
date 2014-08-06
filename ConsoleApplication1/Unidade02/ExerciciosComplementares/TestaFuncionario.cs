@@ -19,8 +19,14 @@ namespace Unidade02.ExerciciosComplementares
             funcionario01.cargo = "Arquiteto";
             funcionario02.area = "Desenvolvimento";
             funcionario02.cargo = "Projetista";
-            Console.WriteLine("Funcionario: {0}\tArea: {1}\tCarggo: {2}",funcionario01.nome,funcionario01.area,funcionario01.cargo);
-            Console.WriteLine("Funcionario: {0}\tArea: {1}\tCarggo: {2}", funcionario02.nome, funcionario02.area, funcionario02.cargo);
+            funcionario01.consultaDados();
+            funcionario01.aumentaSalario(1000);
+            funcionario01.consultaDados();
+            funcionario02.consultaDados();
+            funcionario02.aumentaSalario(1300);
+            funcionario02.consultaDados();
+            //Console.WriteLine("Funcionario: {0}\tArea: {1}\tCarggo: {2}",funcionario01.nome,funcionario01.area,funcionario01.cargo);
+            //Console.WriteLine("Funcionario: {0}\tArea: {1}\tCarggo: {2}", funcionario02.nome, funcionario02.area, funcionario02.cargo);
             Console.ReadKey();
         }
     }

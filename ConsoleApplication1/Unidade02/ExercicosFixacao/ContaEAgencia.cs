@@ -12,5 +12,23 @@ namespace Unidade02.ExercicosFixacao
         public double saldo;
         public double limite = 100;
         public Agencia agencia;
+        
+        //exercicio 16
+        public void Deposita(double valor)
+        {
+            this.saldo += valor;
+        }
+        public void Saca(double valor)
+        {
+            this.saldo -= valor; 
+        }
+        public void ImprimeExtrato()
+        {
+            Console.WriteLine("SALDO: " + this.saldo);
+        }
+        public double ConsultaSaldoDisponivel()
+        {
+            return this.saldo + this.limite;
+        }
     }
 }

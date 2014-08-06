@@ -18,7 +18,14 @@ namespace Unidade02.ExercicosFixacao
             c1.saldo = 1000;
             c1.limite = 500;
 
-            c1.agencia = a;
+            c1.agencia = a; 
+
+            c1.Deposita(1000);
+            c1.ImprimeExtrato();
+            c1.Saca(100);
+            c1.ImprimeExtrato();
+            double saldoDisponivel = c1.ConsultaSaldoDisponivel();
+            Console.WriteLine("SALDO DISPONÍVEL: " + saldoDisponivel);
 
             Console.WriteLine(c1.numero);
             Console.WriteLine(c1.saldo);
