@@ -20,7 +20,7 @@ namespace Unidade02.ExerciciosComplementares
         }
         public void consultaDados()
         {
-            Console.WriteLine("NOME: {0}\tCARGO: {1}\tÁREA: {2}\tSALÁRIO: {3}",this.nome,this.cargo,this.area,this.salario);            
+            Console.WriteLine("NOME: {0}    CARGO: {1}   ÁREA: {2}   SALÁRIO: {3}",this.nome,this.cargo,this.area,this.salario);            
         }
     }
 }
