@@ -49,6 +49,7 @@
     <Compile Include="ExerciciosComplementares\TestaTurmaEAluno.cs" />
     <Compile Include="ExerciciosComplementares\Turma.cs" />
     <Compile Include="ExercicosFixacao\ContaEAgencia.cs" />
+    <Compile Include="ExercicosFixacao\Gerente.cs" />
     <Compile Include="ExercicosFixacao\TestaContaEAgencia.cs" />
     <Compile Include="ExercicosFixacao\Agencia.cs" />
     <Compile Include="ExercicosFixacao\CartaoDeCredito.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="ExercicosFixacao\TestaCartaoDeCredito.cs" />
     <Compile Include="ExercicosFixacao\TestaCliente.cs" />
     <Compile Include="ExercicosFixacao\TestaConta.cs" />
+    <Compile Include="ExercicosFixacao\TestaGerente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
